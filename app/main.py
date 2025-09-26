@@ -5,7 +5,9 @@ from app.logging_utils import get_logger
 from app.selenium_service import get_chatgpt_answer
 from fastapi.staticfiles import StaticFiles
 
-API_KEY = "lumen"
+import os
+
+API_KEY = os.getenv("API_KEY")
 
 app = FastAPI()
 
