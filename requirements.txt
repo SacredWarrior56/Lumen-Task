@@ -1,0 +1,6 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+selenium==4.35.0
+seleniumbase==4.41.9
+pydantic==2.11.1
+undetected-chromedriver==3.5.5
